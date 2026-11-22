@@ -12,3 +12,10 @@ export type {
 } from "./useCommandPalette.js";
 
 export { CommandPalette, usePaletteContext } from "./Palette.js";
+
+export { ResultAnnouncement } from "./a11y/ResultAnnouncement.js";
+export type { ResultAnnouncementProps } from "./a11y/ResultAnnouncement.js";
+export {
+  formatResultCount,
+  useResultAnnouncement,
+} from "./a11y/useResultAnnouncement.js";
